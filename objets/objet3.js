@@ -1,7 +1,10 @@
 let rectongle = {
-    largeur: "2",
-    longueur: "4",
+    largeur: 2,
+    longueur: 4,
 }
-console.log(`rectongle : ${rectongle.largeur} \n ${rectongle.longueur}`);
-let aire = rectongle.largeur * rectongle.longueur;
-console.log(`L'Aire de votre rectongle est: ${aire}`)
+function calculerAire(rectongle){
+    return rectongle.largeur * rectongle.longueur;
+
+}
+let resultat = calculerAire(rectongle)
+console.log(`L'Aire de votre rectongle est: ${resultat}`)

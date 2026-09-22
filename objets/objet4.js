@@ -1,4 +1,3 @@
-const prompt = require('prompt-sync')()
 let point = {
     x: 3,
     y: 4,
