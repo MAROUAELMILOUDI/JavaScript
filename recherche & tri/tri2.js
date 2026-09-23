@@ -8,11 +8,10 @@ function insertionSort(arr) {
             j = j - 1;
         }
         arr[j + 1] = key;
-    }
+    } return arr
 }
-
-
-let arr = [12, 11, 13, 5, 6];
-
-insertionSort(arr);
+let arr=[12, 11, 13, 5, 6]
 console.log(arr);
+
+console.log(insertionSort(arr));
+
