@@ -8,7 +8,8 @@ function bubbleSort(arr){
             }
         }
     }
-    console.log(arr)
+    return arr
 }
 let arr=[10,4,7,12,9]
-bubbleSort(arr)
+console.log(arr)
+console.log(bubbleSort(arr))
